@@ -487,7 +487,7 @@ client.on("message", (message) =>{
 
 // ==================================================================================================
     if(onChat.has(message.author.id)){
-        if (message.content == ".chat"){
+        if (message.content == "?chat"){
             message.reply("Você foi removido do ChatBot")
             onChat.delete(message.author.id)
             return;
@@ -626,11 +626,11 @@ function generateGiveawayEmbed(title,description,min,max,days,msg){
 // ==================================================================================================
 
     if(maintaince) {
-        if(message.content.startsWith(config.prefix + "maintance")){
+        if(message.content.startsWith(config.prefix + "manutenção")){
             maintaince = false
             message.channel.send("Modo manutenção desativado")
             client.user.setStatus("online")
-            client.user.setPresence({game:{name: config.prefix + "help", type: 0}});
+            client.user.setPresence({game:{name: config.prefix + "help | Bot By SmuurfBR", type: 0}});
             return;
         }
         else return;
@@ -1031,8 +1031,8 @@ function generateGiveawayEmbed(title,description,min,max,days,msg){
                         message.channel.send("Você precisa especificar a quantidade de mensagens a ser apagadas")
                         return;
                     }
-                    if (Number(args[0] > 99)){
-                        message.channel.send("Você precisa especificar uma quantidade menor ou igual a 100, desculpa, limitações da API :c")
+                    if (Number(args[0] > 1000)){
+                        message.channel.send("Você precisa especificar uma quantidade menor ou igual a 1000, desculpa, limitações da API :c")
                         return;
                     }
                     if (message.mentions.members.size == 0) clean()
