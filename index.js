@@ -7,7 +7,6 @@ const google = require("google")
 const shortener = require("tinyurl")
 const snekfetch = require("snekfetch")
 const { gitCommitPush } = require("git-commit-push-via-github-api")
-const botconfig = require("./botconfig.json")
 
 const gitToken = process.env.GITHUB_TOKEN
 
