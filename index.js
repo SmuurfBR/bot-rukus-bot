@@ -1031,8 +1031,8 @@ function generateGiveawayEmbed(title,description,min,max,days,msg){
                         message.channel.send("Você precisa especificar a quantidade de mensagens a ser apagadas")
                         return;
                     }
-                    if (Number(args[0] > 1000)){
-                        message.channel.send("Você precisa especificar uma quantidade menor ou igual a 1000, desculpa, limitações da API :c")
+                    if (Number(args[0] > 100)){
+                        message.channel.send("Você precisa especificar uma quantidade menor ou igual a 100, desculpa, limitações da API :c")
                         return;
                     }
                     if (message.mentions.members.size == 0) clean()
