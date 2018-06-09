@@ -5,7 +5,7 @@
         "packages" : "`request` e `node-schedule` é utilizado para obter informações sobre um canal do youtube e fazer uma pesquisa com a api do mesmo. `google` é usado para fazer pesquisas no google. `tinyurl` é usado para o encurtador de links",
         "database" : "O banco de dados utiliza um sistema simples, baseado em `JavaScript Oriented Objects (JSON)` e `FS`",
         "prefix" : "!",
-        "invite" : "https://discord.gg/q53DCqe",
+        "invite" : "https://discord.gg/CUAM5KU",
 
 
         "help" : {
