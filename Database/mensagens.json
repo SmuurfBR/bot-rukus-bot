@@ -49,22 +49,10 @@
     ],
     "error" : {
         "default" : [
-            "Você inseriu um comando inválido", 
-            "O comando digitado não existe",
-            "Revise seu linguajar",
-            "Aprende a escrever direito, seu retardado",
-            "Whoops, algo deu errado",
-            "Alfanabeto",
-            "As vezes é uma boa http://prntscr.com/i5pxb5",
-            "?",
-            "Essa é nova",
-            "A é?"
+            "Você inseriu um comando inválido ou de outro bot!"
         ],
         "perms" : [
-            "Você não tem as permissões necessárias", 
-            "Tentando burlar as regras?", 
-            "Eu pediria um cargo, mas você não tem esse privilégio",
-            "Estou de olho em você"
+            "Você não tem as permissões necessárias" 
         ],
         "lowPerms" : [
             "Você precisa de um cargo maior para isso"
